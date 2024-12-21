@@ -114,6 +114,6 @@ class SolutionTest {
     void testMixedSingleAndMultipleDigits() {
         int[] nums = {10, 2};
         String result = solution.largestNumber(nums);
-        assertEquals("21", result);
+        assertEquals("210", result);
     }
 }
